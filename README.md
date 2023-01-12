@@ -29,3 +29,35 @@ This mod allows you to mount the eletronices on two 8mm rods (lead screws, smoot
 | 5x4 heat set inserts (for SSR)| 2		| same as voron's		|
 | m3 screws (for mainboard)	| 4		| same as voron's 		|
 | m2 plastic screws (for raspberry)	| 4	| same as voron's		|
+
+## Z motor pulley box 
+
+This mod is inspired by the v0.0 lead screw mechanism. It uses two pulleys and a loop belt to transfer the motion from the motor to the screw
+
+### Features
+
+- 1:2 reduction in the default configuration (provides no real benefit)
+- avoids using a coupler, ensuring the lead screw is straight
+- saves z-travel compared to using a coupler
+
+![top view](/z_motor_pulleybox/img/top_view.jpg?raw=true "top view")
+![bottom view](/z_motor_pulleybox/img/bottom_view.jpg?raw=true "bottom view")
+
+### Note
+
+- It should be possible to add 2 more holes around the lead screw hole, to be able to mount this sideways
+
+### BOM
+
+this is the bom per pulley box (you probably neet 2)
+
+| description                   | quantity	| sourcing (non affiliate) 	|
+|-------------------------------|---------------|-------------------------------|
+| M4x16 screw		        | 2		||
+| m3x30 screw		        | 6		||
+| KFL08 bearing		        | 1		||
+| gt2 loop belt (same as the V2.4) | 1		||
+| 20t GT2 pulley | 1		||
+| 80t GT2 pulley | 1		||
+| (optional) the small bearing on the top with a lip...		        | 1		||
+| (optional) m3 washers		        | 6		||
