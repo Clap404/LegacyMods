@@ -54,7 +54,8 @@ this is the bom per pulley box (you probably neet 2)
 | description                   | quantity	| sourcing (non affiliate) 	|
 |-------------------------------|---------------|-------------------------------|
 | M4x16 screw		        | 2		||
-| m3x30 screw		        | 6		||
+| m3x30 screw		        | 8		||
+| m3x5 heat set inserts		        | 4		||
 | KFL08 bearing		        | 1		||
 | gt2 loop belt (same as the V2.4) | 1		||
 | 20t GT2 pulley | 1		||
