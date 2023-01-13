@@ -57,8 +57,8 @@ this is the bom per pulley box (you probably neet 2)
 | m3x30 screw		        | 8		||
 | m3x5 heat set inserts		        | 4		||
 | KFL08 bearing		        | 1		||
-| gt2 loop belt (same as the V2.4) | 1		||
+| GT2 Belt Loop (6mm wide) - 188mm| 1		||
 | 20t GT2 pulley | 1		||
-| 80t GT2 pulley | 1		||
-| (optional) the small bearing on the top with a lip...		        | 1		||
-| (optional) m3 washers		        | 6		||
+| 40t GT2 pulley | 1		||
+| (optional) F688-ZZ        | 1		||
+| (optional) m3 washers		        | 8		||
