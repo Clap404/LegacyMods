@@ -36,6 +36,7 @@ This mod is inspired by the v0.0 lead screw mechanism. It uses two pulleys and a
 
 ### Features
 
+- same width as a standard nema17 motor
 - 1:2 reduction in the default configuration (provides no real benefit)
 - avoids using a coupler, ensuring the lead screw is straight
 - saves z-travel compared to using a coupler
@@ -45,20 +46,24 @@ This mod is inspired by the v0.0 lead screw mechanism. It uses two pulleys and a
 
 ### Note
 
-- It should be possible to add 2 more holes around the lead screw hole, to be able to mount this sideways
+- It should be possible to add 2 more holes around the lead screw hole, to be able to mount the pulleybox sideways.
+- There is play in the KFL08 mounting holes to allow you to align the top and bottom bearings. After final assembly, if your lead screw is not straight, you can untighten the KFL08, reposition your lead screw and tighten it again.
+- KFL08 bearings can have M4 or M5 holes for mounting... This model assumes you'll use M4 screws + nut to mount your KFL08 bearing but you should be able to enlarge the hole and nut pocket in CAD to accomodate for M5 hardware.
+- I marked the F688-ZZ as optional because the pulleybox *should* work without it and allows a greater degree of movementof the lead screw, which might be desirable sometimes.
 
 ### BOM
 
 this is the bom per pulley box (you probably neet 2)
 
-| description                   | quantity	| sourcing (non affiliate) 	|
-|-------------------------------|---------------|-------------------------------|
-| M4x16 screw		        | 2		||
-| m3x30 screw		        | 8		||
-| m3x5 heat set inserts		        | 4		||
-| KFL08 bearing		        | 1		||
-| GT2 Belt Loop (6mm wide) - 188mm| 1		||
-| 20t GT2 pulley | 1		||
-| 40t GT2 pulley | 1		||
-| (optional) F688-ZZ        | 1		||
-| (optional) m3 washers		        | 8		||
+| description                   | quantity	    | comment |
+|-------------------------------|---------------|---------|
+| m4x20 screw		                | 2		          | longer screws will work here too |
+| m4 hex nut		                | 2		          | |
+| m3x30 screw		                | 8		          | |
+| m3x5 heat set inserts		      | 4		          | same as voron's |
+| KFL08 bearing		              | 1		          | |
+| GT2 belt loop 188mm           | 1		          | same as voron's |
+| 20t GT2 pulley 5mm bore       | 1		          | same as voron's |
+| 40t GT2 pulley 8mm bore       | 1		          | not used in vorons ! |
+| (optional) F688-ZZ                       | 1		          | found in some cheap printers |
+| (optional) m3 washers		      | 8		          | bolting directly tends to deform the plastic |
